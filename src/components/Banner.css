@@ -1,0 +1,54 @@
+#banner-container {
+    background-color: #0FC9D1;
+    color: white !important;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* #banner-row h1 {
+    padding-left: 50px;
+    padding-top: 20px;
+    text-align: left; 
+    font-weight: bold;
+    background-image: url("../images/rectangle-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+#banner-row p {
+    padding-left: 50px;
+    padding-right: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: large;
+    color: #1275A5 !important;
+}
+
+#banner-row a {
+    margin-top: 20px;
+}
+
+#banner-col {
+    box-sizing: border-box;
+}
+
+#banner-col2 img {
+    width: 100%;
+    height: 640px;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    #banner-row img {
+        height: 320px;
+    }
+
+    #banner-row h1 {
+        background-size: 70%;
+    }
+
+    #banner-row p {
+        padding-right: 50px;
+    }
+}
