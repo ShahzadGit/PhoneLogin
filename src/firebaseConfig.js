@@ -2,13 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyATFzWxObebEhv08b1I2RzVIbkY0gPPIGA",
-  authDomain: "myeshop-41b57.firebaseapp.com",
-  projectId: "myeshop-41b57",
-  storageBucket: "myeshop-41b57.appspot.com",
-  messagingSenderId: "1051199433044",
-  appId: "1:1051199433044:web:903da2b3fc48e2577e40c1"
-
+  apiKey: "AIzaSyAGddkLHr4OJRYNlTJnnpJeE0DenHUIBOg",
+  authDomain: "phoneauth-by-shahzad.firebaseapp.com",
+  projectId: "phoneauth-by-shahzad",
+  storageBucket: "phoneauth-by-shahzad.appspot.com",
+  messagingSenderId: "152207948402",
+  appId: "1:152207948402:web:8fc4dadfadaa2c301a20eb"
 };
 
 const app = initializeApp(firebaseConfig);
