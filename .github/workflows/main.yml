@@ -17,10 +17,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '15.x'
-      
+      - run: npm ci
+      - run: CI='' npm run build --if-present
+
       
       - name: Installing surge
         run: npm install -g surge
      
       - name: Deploying on Surge
-        run: surge ./ https://phoneauth-by-shahzad.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build https://phoneauth-by-shahzad.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
